@@ -1,0 +1,13 @@
+/*Menu*/
+.container-fluid{
+    background-color: $primary-color;
+    padding: 10px;
+}
+
+.navbar-brand{
+    color: $primary-color;
+    
+    li:hover {
+        color: $color1;
+    }
+}
