@@ -76,29 +76,4 @@
   body{
       padding: 0 4 rem;
   }
-
-  .contact-wrapper{
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-
-      >*{
-          padding: 2em;
-      }
-  }
-
-  .info-contacto{
-      h4{
-          padding: 1em;
-          text-align: left;
-      }
-      ul{
-          padding: 1em;
-          text-align: left;
-      }
-
-      p{
-          padding: 1em;
-          text-align: left;
-      }
-  }
 }
