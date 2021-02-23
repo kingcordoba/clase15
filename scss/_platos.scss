@@ -73,7 +73,7 @@
   
   @media screen and (min-width: 590px) {
     
-    .container{
+    .container-platos{
       grid-template-columns: repeat(2, 1fr);
     }
     
@@ -83,7 +83,7 @@
   
   @media screen and (min-width: 960px) {
     
-    .container{
+    .container-platos{
       grid-template-columns: repeat(3, 1fr);
     }
     
