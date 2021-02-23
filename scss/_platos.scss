@@ -71,20 +71,34 @@
   }
   
   
-  @media screen and (min-width: 590px) {
-    
-    .container{
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
+/*Pantalla grande*/
+@media (min-width: 700px) {
+  body{
+      padding: 0 4 rem;
   }
-  
-  
-  
-  @media screen and (min-width: 960px) {
-    
-    .container{
-      grid-template-columns: repeat(3, 1fr);
-    }
-    
+
+  .contact-wrapper{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+
+      >*{
+          padding: 2em;
+      }
   }
+
+  .info-contacto{
+      h4{
+          padding: 1em;
+          text-align: left;
+      }
+      ul{
+          padding: 1em;
+          text-align: left;
+      }
+
+      p{
+          padding: 1em;
+          text-align: left;
+      }
+  }
+}
